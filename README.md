@@ -1,4 +1,4 @@
-# Context_Aware_Navigation, CoRL 2023
+# Context_Aware_Navigation
 ### Public code and datasets for <a href="https://openreview.net/pdf?id=kSXh83gWWy">Context-Aware Deep Reinforcement Learning for Autonomous Robotic Navigation in Unknown Area</a>, which has been accepted for presentation at the 7th Conference on Robot Learning (CoRL 2023).
 
 we propose a learning-based framework for autonomous navigation in unknown areas, which employs a context-aware policy network to achieve efficient decision-making (i.e., maximize the likelihood of finding the shortest route towards the target destination). Our agent learns a reactive policy over the next waypoint to travel to, in a constantly expanding graph over the agent’s partial map of the environment. We rely on an attention-based neural network to allow the agent to reason about its entire belief at multiple spatial scales, and form a context embedding, which it then uses to sequence local movement decisions informed by long-term objectives.
