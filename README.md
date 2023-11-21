@@ -7,16 +7,17 @@ we propose a learning-based framework for autonomous navigation in unknown areas
 </center>
 
 ## Demos
-<center class="half">
-    <img src="utils/demo1.gif" width="350"/><img src="utils/demo2.gif" width="350"/>
-</center>
+
+<div style="text-align: center;">
+   <img src="utils/demo1.gif" width="370"/><img src="utils/demo2.gif" width="370"/>
+</div>
 
 ## Run
 ### Files
 * `parameters.py` - Training parameters.
 * `driver.py` - Driver of training program, maintain & update the global network.
 * `runner.py` - Wrapper of the local network.
-* `worker.py` - Interact with environment and collect episode experience.
+* `worker.py` - Interact with the environment and collect episode experience.
 * `model.py` - Define attention-based network.
 * `env.py` - Autonomous navigation environments.
 * `graph_generator.py` - Generate and update the partial robot belief.
