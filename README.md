@@ -44,13 +44,13 @@ we propose a learning-based framework for autonomous navigation in unknown areas
 ## Citation
 If you find our work helpful or enlightening, feel free to cite our paper:
 ```
-@inproceedings{
-liang2023contextaware,
-title={Context-Aware Deep Reinforcement Learning for Autonomous Robotic Navigation in Unknown Area},
-author={Jingsong Liang and Zhichen Wang and Yuhong Cao and Jimmy Chiun and Mengqi Zhang and Guillaume Adrien Sartoretti},
-booktitle={7th Annual Conference on Robot Learning},
-year={2023},
-url={https://openreview.net/forum?id=kSXh83gWWy}
+@inproceedings{liang2023context,
+  title={Context-Aware Deep Reinforcement Learning for Autonomous Robotic Navigation in Unknown Area},
+  author={Liang, Jingsong and Wang, Zhichen and Cao, Yuhong and Chiun, Jimmy and Zhang, Mengqi and Sartoretti, Guillaume Adrien},
+  booktitle={Conference on Robot Learning},
+  pages={1425--1436},
+  year={2023},
+  organization={PMLR}
 }
 ```
 ## Authors
